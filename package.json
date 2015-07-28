@@ -1,0 +1,19 @@
+{
+  "name": "fitbit-cli",
+  "version": "0.0.0",
+  "description": "CLI for logging water to fitbit",
+  "bin": {
+    "fitbit": "req.js"
+  },
+  "dependencies": {
+    "fitbit-js": "^0.3.1",
+    "optimist": "^0.6.1",
+    "request": "^2.60.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Simon Murtha Smith <two570@gmail.com>",
+  "license": "ISC"
+}
